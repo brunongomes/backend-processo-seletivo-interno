@@ -1,0 +1,16 @@
+### Cadastrar Cartão de crédito
+POST http://localhost/api/empresa/cartao
+Content-Type: application/application/json
+
+{
+    "empresa_id": 2,
+    "numero_cartao": "89756451323212",
+    "validade": "10/25",
+    "codigo_seguranca": "156",
+    "nome_titular": "Paulo Souza"
+}
+
+### Buscar dados de empresa e cartão de crédito
+GET http://localhost/api/empresa/2
+Content-Type: application/json
+
